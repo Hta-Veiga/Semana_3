@@ -1,0 +1,17 @@
+public class AlteracaoListagemClientes {
+    public static void main(String[] args) {
+        String cliente1 = "Fulano";
+        String cliente2 = "Sicrano";
+        int AnoNascimento1 = 1980;
+        int AnoNascimento2  = 2000;
+
+        System.out.println(">>> Listagem de Clientes");
+        System.out.println("_________________________________");
+        System.out.println("Nome:" + cliente1);
+        System.out.println("Ano de Nascimento:" + AnoNascimento1);
+        System.out.println("_________________________________");
+        System.out.println("Nome:" + cliente2);
+        System.out.println("Ano de Nascimento:" + AnoNascimento2);
+    }
+
+}
